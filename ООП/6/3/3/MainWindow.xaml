@@ -21,7 +21,7 @@
         <Canvas x:Name="canvas" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="2"></Canvas>
         
         <Button x:Name="Button_Create" Grid.Column="0" Grid.Row="2" Width="180" Height="30" Click="Button_Create_OnClick">Создать шары</Button>
-        <Button x:Name="Button_Start" Grid.Column="1" Grid.Row="2" Width="180" Height="30"></Button>
-        <Button x:Name="Button_Stop" Grid.Column="2" Grid.Row="2" Width="180" Height="30"></Button>
+        <Button x:Name="Button_Start" Grid.Column="1" Grid.Row="2" Width="180" Height="30" Click="Button_Start_OnClick">Старт</Button>
+        <Button x:Name="Button_Stop" Grid.Column="2" Grid.Row="2" Width="180" Height="30" Click="Button_Stop_OnClick">Стоп</Button>
     </Grid>
 </Window>
